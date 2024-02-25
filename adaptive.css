@@ -1,0 +1,218 @@
+
+@media (max-width: 1440px) {
+
+  main{
+    padding: 20px 72px;
+  }
+
+  .contacts__map {
+    height: 696px;
+  }
+
+  .contacts__map__map {
+    height: 696px;
+    left: 60%;
+    width: auto;
+  }
+
+  .pin{
+    top: 190px;
+    right: 455px
+  }
+
+  .container-info { 
+    top: 40px;
+    left: 40px;
+  }
+
+  .label-text{
+    top: 40px;
+    right: 40px;
+    width: 446px;
+  }
+
+  .gallery__photo {
+    gap: 24px;
+  }
+
+  .gallery__photo img{
+    width: 32%;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  main {
+    padding: 20px 36px;
+  }
+
+  .container-info-pk{
+    display: none;
+  }
+
+  .label-text-pk {
+    display: none;
+  }
+
+  .contacts__map {
+    height: 400px;
+  }
+
+  .contacts__map__map {
+    left: 50%;
+    top: 80%;
+  }
+
+  .pin {
+    top: 130px;
+    right: 315px;
+  }
+
+  .container-info-phone {
+    display: block;
+    position: static;
+    background-color: #FAFAFA;
+    padding: 40px 24px;
+    
+  }
+
+  .label-text-phone {
+    display: block;
+    position: static;
+    background-color: #FAFAFA;
+    margin: 32px 0;
+  }
+
+  .label-text {
+    width: auto;
+  }
+
+  .container-info {
+    width: auto;
+  }
+
+  .button-map{
+    padding: 16px 76px;
+  }
+
+  .button-phone{
+    padding: 16px 69px;
+  }
+
+  .gallery__photo {
+    gap: 40px;
+  }
+
+  .gallery__photo img {
+    width: 90%;
+  }
+
+  .progress-bar{
+    width: 100%;
+  }
+
+  .nav{
+    display: none;
+  }
+
+  .text{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .text__title{
+    font-size: 48px;
+  }
+
+  .text__desc {
+    font-size: 18px;
+  }
+
+  .team__list{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .wrapper{
+    width: 336px;
+  }
+
+  .br {
+    display: block;
+  }
+
+  .download-pk {
+    display: none;
+  }
+
+  .download-phone{
+    display: block;
+  }
+
+  .table {
+    width: 100%;
+  }
+
+}
+
+
+
+
+@media (max-width: 375px) {  
+  main{
+    padding: 20px 12px;
+    gap: 64px;
+  }
+
+  .contacts__map{
+    height: 280px;
+  }
+
+  .pin{
+    top: 45px;
+    right: 145px;
+  }
+
+  .info__block__phone {
+    flex-direction: column;
+  }
+
+  .info__block__copy{
+    align-self: flex-end;
+    border: 1px solid #D9D9D9;
+  }
+
+  .info__block__copy path{
+    stroke: #D9D9D9;
+  }
+
+  .container-info__buttons{
+    flex-direction: column;
+  }
+
+  .container-info-phone{
+    padding: 16px;
+  }
+
+  .gallery__photo img{
+    width: 100%;
+  }
+
+  .team__list{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  table,
+  th,
+  td {
+    border: none;
+  }
+
+    th,
+    td {
+      padding: 16px 16px 16px 0px;
+      border-bottom: 1px solid #D9D9D9;
+    }
+}
